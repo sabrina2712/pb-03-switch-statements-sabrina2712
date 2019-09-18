@@ -42,13 +42,17 @@ switch (grade) {
     console.log("Average!");
     break;
 
+  case "F":
+    console.log("Failed!");
+    break;
+
   default:
     console.log("Keep Trying!");
 }
 
 // Prob. 3 fruits
 
-var fruit = "Banana";
+var fruit = "Orange";
 
 switch (fruit) {
   case "Apple":
@@ -56,7 +60,12 @@ switch (fruit) {
     break;
 
   case "Orange":
-    console.log("Great for Winter!");
+    console.log("full of vitamin C!");
+  case "Kiwi":
+    console.log("source of vitamin C!");
+
+  case "Melon":
+    console.log("good one for vitamin C!");
     break;
 
   case "Strawberry":
@@ -69,4 +78,33 @@ switch (fruit) {
 
   default:
     console.log("All of them are fruits!");
+}
+
+// my
+
+var day = "3";
+
+switch (day) {
+  case "1":
+    console.log("Monday!");
+    break;
+
+  case "2":
+    console.log("Tuesday!");
+    break;
+
+  case "3":
+    console.log("Wednesday!");
+    break;
+
+  case "4":
+    console.log("Thursday!");
+    break;
+
+  case "5":
+    console.log("Friday!");
+    break;
+
+  default:
+    console.log("weekdays!");
 }
